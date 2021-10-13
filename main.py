@@ -3,7 +3,11 @@ from gameLogic.env import Map, Player
 import keyboard
 from time import sleep
 DEBUG = False
-
+# TODO Menu implementation
+# TODO Interaction with env
+# TODO Map switching
+# TODO Inventory
+# TODO NPC and dialogues
 
 if __name__ == "__main__":
     rat.add("logs/info.log", level="INFO", rotation="100 KB")
